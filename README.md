@@ -48,7 +48,7 @@ Key Questions
   Quantity YOY Growth
 
 ### Data Visualization
-   Pivot Chart was used for the Visulization
+   Pivot Chart was used for Data Visualization
    ![Dashboard](ExcelDashboard1.png)
    
    
