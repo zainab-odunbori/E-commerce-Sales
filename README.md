@@ -23,7 +23,6 @@ Key Questions
 
 - How was the Sales Performance in 2023 and 2024
 - What product has the highest Sales by Product and Category
-- Which product gave the highest Sales
 - What Month gave the highest Sales and Lowest Sales in 2023 and 2024
 - What year gave the highest profit
 
@@ -58,8 +57,10 @@ The total Profit of 2024 was $411.6k while the total Profit of 2023 was $308.1k
 The total Quantity Sold in 2024 Was 899 while the Quantity Sold in 2023 was 724
  The major pattern noticed is the increase in all the major Key performance Index in 2024, Sales, Cost, Profit and Quantity
 
-2. The Product with the highest Sales in 2024 is Monitor which is in the Electronics Category, while Monitor had the lowest Sales in 2023.
-The Product with the highest Sales in 2023 was Keyboard which was the product with the lowest Sales in 2024
+2. The Product with the highest Sales in 2024 is Monitor which is in the Electronics Category which had the lowest Sales in 2023.
+The Product with the highest Sales in 2023 was Keyboard which was the product with the lowest Sales in 2024 in the Accessory Category.
+
+3. 
    
    
    
