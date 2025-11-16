@@ -15,4 +15,24 @@ To ensure data intergrity:
 4. Converted into table to get better view at the dataset and make it more organised
 5. Added two column to further explore the dataset.
 6. The two columns added was for Year and Month respectively
-7. 
+
+
+### Exploratory Data Analysis (EDA)
+
+Key Questions
+
+- What was the Sales Performance in 2023 and 2024
+- What product has the highest Sales by Product and Category
+- Which product gave the highest Sales
+- What Month gave the highest Sales and Lowest Sales in 2023 and 2024
+- What year gave the highest profit
+
+  ### Data Analysis
+  The Year and Month table was added to help in further analysis.
+  Formular Used:
+  TEXT [(@DatE),"MMM"]
+  TEXT [(@Date), "YYYY"]
+
+  Pivot Table was used for the analysis:
+  Insert Pivot Table
+  The Pivot table was used to Calculate the KPIs; Sales, Quantity, Cost and Profit
