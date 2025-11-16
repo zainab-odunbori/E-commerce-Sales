@@ -7,7 +7,7 @@ The E-commerce Sales analysis was done to explore and analyze key insisghts from
 Excel 
 Pivot Table and Pivot Chart in Excel
 
-### Cleaning and Pre-processing the Dataset
+### Cleaning and Preprocessing the Dataset
 To ensure data intergrity:
 1. Import the files into EXCEL 
 2. Check for missing Values
@@ -43,13 +43,17 @@ Key Questions
   Pivot Table was also used to Calculate YOY Change
   (current Year - Previous Year)/Previous Year
   This formular was used to Calculate:
-  Sales YOY Growth
-  Cost YOY Growth
-  Quantity YOY Growth
+  Sales Year On Year Growth
+  Cost Year On Year Growth
+  Quantity Year On Year Growth
 
 ### Data Visualization
    Pivot Chart was used for Data Visualization
    ![Dashboard](Exceldashboard1.png)
+
+### Results 
+Summary of key insights from the E-commerce Sales Analysis
+1. 
    
    
    
