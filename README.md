@@ -49,3 +49,5 @@ Key Questions
 
 ### Data Visualization
    Pivot Chart was used for the Visulization
+   ![Dashboard](Excel Dashboard 1.PNG
+   
