@@ -12,9 +12,10 @@ To ensure data intergrity:
 1. Import the files into EXCEL 
 2. Check for missing Values
 3. Check for duplicates (No duplicates)
-4. Converted into table to get better view at the dataset and make it more organised
-5. Added two column to further explore the dataset.
-6. The two columns added was for Year and Month respectively
+4. 
+5. Converted into table to get better view at the dataset and make it more organised
+6. Added two column to further explore the dataset.
+7. The two columns added was for Year and Month respectively
 
 
 ### Exploratory Data Analysis (EDA)
@@ -30,9 +31,18 @@ Key Questions
   ### Data Analysis
   The Year and Month table was added to help in further analysis.
   Formular Used:
-  TEXT [(@DatE),"MMM"]
+  TEXT [(@Date),"MMM"]
   TEXT [(@Date), "YYYY"]
 
   Pivot Table was used for the analysis:
   Insert Pivot Table
   The Pivot table was used to Calculate the KPIs; Sales, Quantity, Cost and Profit
+  The dataset was formated using the formular;
+  [>=1000000]$0.0,,"M";[>=1000]$0.0,"k";0
+
+  Pivot Table was also used to Calculate YOY Change
+  (current Year - Previous Year)/Previous Year
+  This formular was used to Calculate:
+  Sales YOY Growth
+  Cost YOY Growth
+  Quantity YOY Growth
