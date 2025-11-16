@@ -12,17 +12,16 @@ To ensure data intergrity:
 1. Import the files into EXCEL 
 2. Check for missing Values
 3. Check for duplicates (No duplicates)
-4. 
-5. Converted into table to get better view at the dataset and make it more organised
-6. Added two column to further explore the dataset.
-7. The two columns added was for Year and Month respectively
+4. Converted into table to get better view at the dataset and make it more organised
+5. Added two column to further explore the dataset.
+6. The two columns added was for Year and Month respectively
 
 
 ### Exploratory Data Analysis (EDA)
 
 Key Questions
 
-- What was the Sales Performance in 2023 and 2024
+- How was the Sales Performance in 2023 and 2024
 - What product has the highest Sales by Product and Category
 - Which product gave the highest Sales
 - What Month gave the highest Sales and Lowest Sales in 2023 and 2024
@@ -53,7 +52,14 @@ Key Questions
 
 ### Results 
 Summary of key insights from the E-commerce Sales Analysis
-1. 
+1. The total Sales of 2024 was $475.6K while the total Sales of 2023 was 365.6k
+The total Cost of 2024 was $64.0k while the total cost of 2023 was 57.5k
+The total Profit of 2024 was $411.6k while the total Profit of 2023 was $308.1k
+The total Quantity Sold in 2024 Was 899 while the Quantity Sold in 2023 was 724
+ The major pattern noticed is the increase in all the major Key performance Index in 2024, Sales, Cost, Profit and Quantity
+
+2. The Product with the highest Sales in 2024 is Monitor which is in the Electronics Category, while Monitor had the lowest Sales in 2023.
+The Product with the highest Sales in 2023 was Keyboard which was the product with the lowest Sales in 2024
    
    
    
