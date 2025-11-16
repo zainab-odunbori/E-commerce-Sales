@@ -46,3 +46,6 @@ Key Questions
   Sales YOY Growth
   Cost YOY Growth
   Quantity YOY Growth
+
+### Data Visualization
+   Pivot Chart was used for the Visulization
