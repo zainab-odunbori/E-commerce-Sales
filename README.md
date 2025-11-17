@@ -1,49 +1,59 @@
 # E-Commerce Sales Analysis
 
-The E-commerce Sales analysis was done to explore and analyze key insisghts from a dataset containing details about Sales of a Company, including the region the sales was made, the Category of the Product, Quantity Sold and Cost.
+The E-commerce Sales Analysis was conducted to explore and uncover key insights from a dataset containing Sales records, including the region where each sale was made, the product category, quantity sold, and cost.
 
 ## Tools
 
 Excel 
-Pivot Table and Pivot Chart in Excel
+Pivot Table and Pivot Chart
 
 ### Cleaning and Preprocessing the Dataset
 To ensure data intergrity:
 1. Import the files into EXCEL 
 2. Check for missing Values
-3. Check for duplicates (No duplicates)
-4. Converted into table to get better view at the dataset and make it more organised
-5. Added two column to further explore the dataset.
-6. The two columns added was for Year and Month respectively
+3. Check for duplicates (None were found)
+4. Converted the dataset into an Excel Table for better structure and easier formatting.
+5. Added two new columns (Year and Month) for deeper time-based analysis.
+6.Extracted Year and Month using:
+=TEXT([@Date], "MMM")
+=TEXT([@Date], "YYYY")
 
 
 ### Exploratory Data Analysis (EDA)
 
 Key Questions
 
-- How was the Sales Performance in 2023 and 2024
-- What product has the highest Sales by Product and Category
-- What Month gave the highest Sales and Lowest Sales in 2023 and 2024
-- What year gave the highest profit
+- How was the Sales Performance in 2023 and 2024?
+- What product has the highest Sales by Product and Category?
+- What Month gave the highest Sales and Lowest Sales in 2023 and 2024?
+- What year gave the highest profit?
 
   ### Data Analysis
-  The Year and Month table was added to help in further analysis.
-  Formular Used:
-  TEXT [(@Date),"MMM"]
-  TEXT [(@Date), "YYYY"]
+  Pivot Tables were used to calculate the main KPIs:
 
-  Pivot Table was used for the analysis:
-  Insert Pivot Table
-  The Pivot table was used to Calculate the KPIs; Sales, Quantity, Cost and Profit
-  The dataset was formated using the formular;
-  [>=1000000]$0.0,,"M";[>=1000]$0.0,"k";0
+Sales
 
-  Pivot Table was also used to Calculate YOY Change
-  (current Year - Previous Year)/Previous Year
-  This formular was used to Calculate:
-  Sales Year On Year Growth
-  Cost Year On Year Growth
-  Quantity Year On Year Growth
+Quantity
+
+Cost
+
+Profit
+
+A custom number format was applied for readability:
+[>=1000000]$0.0,,"M";[>=1000]$0.0,"k";0
+
+Year-on-Year (YoY) performance was calculated using:
+
+Current Year – Previous Year / Previous Year
+	​
+
+This formula was used for:
+
+Sales YoY Growth
+
+Cost YoY Growth
+
+Quantity YoY Growth
 
 ### Data Visualization
    Pivot Chart was used for Data Visualization
@@ -60,7 +70,11 @@ The total Quantity Sold in 2024 Was 899 while the Quantity Sold in 2023 was 724
 2. The Product with the highest Sales in 2024 is Monitor which is in the Electronics Category which had the lowest Sales in 2023.
 The Product with the highest Sales in 2023 was Keyboard which was the product with the lowest Sales in 2024 in the Accessory Category.
 
-3. 
+3.  There is an opposite relationship in the revenue of 2023 and 2024, this can be seen in the monthly revenue trend and the months that showed these most were: February 2023 & 2024, March 2023 & 2024, April 2023 & 2024.
+
+### Recommendation
+
+### Limitation
    
    
    
