@@ -90,9 +90,9 @@ This shows a contrasting trend in product preference between both years.
 There is an inverse trend (opposite movement) between the monthly revenue of 2023 and 2024.
 This contrasting trend is most visible in:
 
-February 2023 vs 2024
 March 2023 vs 2024
-April 2023 vs 2024
+July 2023 vs 2024
+September 2023 vs 2024
 
 Where revenue increased in one year and decreased in the other.
 
