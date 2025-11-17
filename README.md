@@ -77,7 +77,9 @@ Insight: All major KPIs — Sales, Cost, Profit, and Quantity — increased sign
 2. Product Performance
 
 2024 Highest-Selling Product: Monitor
+
 Category: Electronics
+
 Note: It had the lowest Sales in 2023.
 
 2023 Highest-Selling Product: Keyboard
