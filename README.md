@@ -9,12 +9,19 @@ Pivot Table and Pivot Chart
 
 ### Cleaning and Preprocessing the Dataset
 To ensure data intergrity:
-1. Import the files into EXCEL 
+
+1. Import the files into EXCEL
+
 2. Check for missing Values
+   
 3. Check for duplicates (None were found)
+   
 4. Converted the dataset into an Excel Table for better structure and easier formatting.
+
 5. Added two new columns (Year and Month) for deeper time-based analysis.
+   
 6.Extracted Year and Month using:
+
 =TEXT([@Date], "MMM")
 =TEXT([@Date], "YYYY")
 
@@ -32,8 +39,11 @@ Key Questions
 Pivot Tables were used to calculate the main KPIs:
 
 Sales
+
 Quantity
+
 Cost
+
 Profit
 
 A Custom number format was applied for readability:
@@ -46,8 +56,11 @@ Current Year – Previous Year / Previous Year
 This formula was used for:
 
 Sales YoY Growth
+
 Cost YoY Growth
+
 Quantity YoY Growth
+
 
 ### Data Visualization
    Pivot Chart was used for Data Visualization
@@ -57,20 +70,32 @@ Quantity YoY Growth
  1. Overall Yearly Performance
 
 Total Sales:
+
 2024: $475.6K
+
 2023: $365.6K
 
+
 Total Cost:
+
 2024: $64.0K
+
 2023: $57.5K
 
+
 Total Profit:
+
 2024: $411.6K
+
 2023: $308.1K
 
+
 Total Quantity Sold:
+
 2024: 899 units
+
 2023: 724 units
+
 
 Insight: All major KPIs — Sales, Cost, Profit, and Quantity — increased significantly in 2024, indicating strong year-over-year improvement.
 
@@ -83,8 +108,11 @@ Category: Electronics
 Note: It had the lowest Sales in 2023.
 
 2023 Highest-Selling Product: Keyboard
+
 Category: Accessories
+
 Note: It recorded the lowest Sales in 2024.
+
 This shows a contrasting trend in product preference between both years.
 
 3. Revenue Trend Relationship
@@ -93,10 +121,13 @@ There is an inverse trend (opposite movement) between the monthly revenue of 202
 This contrasting trend is most visible in:
 
 March 2023 vs 2024
+
 July 2023 vs 2024
+
 September 2023 vs 2024
 
 Where revenue increased in one year and decreased in the other.
+
 
 ### Recommendation
 
